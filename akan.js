@@ -38,3 +38,7 @@ var yy = start.getFullYear();
 function maleclicked(){
   verifiermale = true;
 }
+function femaleclicked(){
+  verifierfemale = true;
+
+}
