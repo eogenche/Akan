@@ -35,6 +35,20 @@ var yy = start.getFullYear();
   // alert(yy);
   // -->
 }
+function verifying(){
+  if(verifiermale=true){
+    maleakan = malename[dd];
+    alert(maleakan);
+  }else if(verifiermale = false){
+    verifiermale=true;
+  }else if(verifierfemale = true){
+    femaleakan=femname[dd];
+      alert(femaleakan);
+  }else {
+    verifiermale=true;
+    alert("enter names");
+  }
+}
 function maleclicked(){
   verifiermale = true;
 }
