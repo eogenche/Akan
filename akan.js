@@ -8,10 +8,10 @@ var femname;
 var malename;
 
 
-//var con = start.toDateString();
-//var dd = start.getDay();
-//var mm = start.getMonth();
-//var yy = start.getFullYear();
+//
+//
+//
+//
 
 
 function akan(){
@@ -19,6 +19,10 @@ function akan(){
 var femname = ("Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama");
 var malename = ("Kwasi","Kwadwo","Kwabena,","Kwaku","Yaw","Kofi","kwame");
 var start = new Date(document.getElementById("dob").value);
+var con = start.toDateString();
+var dd = start.getDay();
+var mm = start.getMonth();
+var yy = start.getFullYear();
 //if(con === ""){
  //   alert("enter Date Of Birth");
   //}else{
@@ -26,9 +30,11 @@ var start = new Date(document.getElementById("dob").value);
   //}
   
 
-  alert(start);
+  alert(yy);
   // alert(mm);
   // alert(yy);
   // -->
 }
-
+function maleclicked(){
+  verifiermale = true;
+}
